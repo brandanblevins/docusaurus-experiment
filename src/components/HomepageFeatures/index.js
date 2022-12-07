@@ -33,6 +33,15 @@ const FeatureList = [
       </>
     ),
   },
+  {
+    title: 'Add another item',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+        Test content.
+      </>
+    ),
+  },
 ];
 
 function Feature({Svg, title, description}) {
